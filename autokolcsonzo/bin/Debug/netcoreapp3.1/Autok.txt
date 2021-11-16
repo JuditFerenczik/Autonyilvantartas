@@ -1,0 +1,21 @@
+Az auto 
+rendszáma: DEF354354
+gyártmánya: Ford
+típusa: Scorpio
+üzembehelyezésének dátuma: 1999.11.01
+színe: 
+Van e rajta érvényes forgalmi: igen
+Az auto 
+rendszáma: ABC123123
+gyártmánya: Audi
+típusa: TT
+üzembehelyezésének dátuma: 2007.03.23
+színe: piros
+Van e rajta érvényes forgalmi: nem
+Az auto 
+rendszáma: SDC452452
+gyártmánya: Mercedes
+típusa: Benz
+üzembehelyezésének dátuma: 2001/06/13
+színe: egyéb
+Van e rajta érvényes forgalmi: igen

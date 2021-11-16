@@ -1,0 +1,16 @@
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\bin\Debug\netcoreapp3.1\autokolcsonzo.exe
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\bin\Debug\netcoreapp3.1\autokolcsonzo.deps.json
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\bin\Debug\netcoreapp3.1\autokolcsonzo.runtimeconfig.json
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\bin\Debug\netcoreapp3.1\autokolcsonzo.runtimeconfig.dev.json
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\bin\Debug\netcoreapp3.1\autokolcsonzo.dll
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\bin\Debug\netcoreapp3.1\autokolcsonzo.pdb
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\obj\Debug\netcoreapp3.1\autokolcsonzo.csproj.AssemblyReference.cache
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\obj\Debug\netcoreapp3.1\autokolcsonzo.Form1.resources
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\obj\Debug\netcoreapp3.1\autokolcsonzo.csproj.GenerateResource.cache
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\obj\Debug\netcoreapp3.1\autokolcsonzo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\obj\Debug\netcoreapp3.1\autokolcsonzo.AssemblyInfoInputs.cache
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\obj\Debug\netcoreapp3.1\autokolcsonzo.AssemblyInfo.cs
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\obj\Debug\netcoreapp3.1\autokolcsonzo.csproj.CoreCompileInputs.cache
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\obj\Debug\netcoreapp3.1\autokolcsonzo.dll
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\obj\Debug\netcoreapp3.1\autokolcsonzo.pdb
+C:\Users\Felhasználó\source\repos\autokolcsonzo\autokolcsonzo\obj\Debug\netcoreapp3.1\autokolcsonzo.genruntimeconfig.cache
