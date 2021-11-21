@@ -33,6 +33,7 @@ namespace autokolcsonzo
             this.panel8 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.vissza = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.radioNem = new System.Windows.Forms.RadioButton();
@@ -99,15 +100,26 @@ namespace autokolcsonzo
             // 
             // panel7
             // 
+            this.panel7.Controls.Add(this.vissza);
             this.panel7.Controls.Add(this.button1);
             this.panel7.Location = new System.Drawing.Point(14, 380);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(305, 55);
             this.panel7.TabIndex = 8;
             // 
+            // vissza
+            // 
+            this.vissza.Location = new System.Drawing.Point(144, 13);
+            this.vissza.Name = "vissza";
+            this.vissza.Size = new System.Drawing.Size(139, 39);
+            this.vissza.TabIndex = 1;
+            this.vissza.Text = "Visszatöltés";
+            this.vissza.UseVisualStyleBackColor = true;
+            this.vissza.Click += new System.EventHandler(this.vissza_Click);
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(92, 13);
+            this.button1.Location = new System.Drawing.Point(5, 13);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 39);
             this.button1.TabIndex = 0;
@@ -164,7 +176,6 @@ namespace autokolcsonzo
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(305, 42);
             this.panel5.TabIndex = 6;
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // listSzin
             // 
@@ -181,7 +192,6 @@ namespace autokolcsonzo
             this.listSzin.Name = "listSzin";
             this.listSzin.Size = new System.Drawing.Size(226, 19);
             this.listSzin.TabIndex = 1;
-            this.listSzin.SelectedIndexChanged += new System.EventHandler(this.listSzin_SelectedIndexChanged);
             // 
             // szin
             // 
@@ -288,7 +298,6 @@ namespace autokolcsonzo
             this.textRendsz.Size = new System.Drawing.Size(226, 23);
             this.textRendsz.TabIndex = 1;
             this.textRendsz.Text = "ABC123";
-            this.textRendsz.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // rendsz
             // 
@@ -354,6 +363,7 @@ namespace autokolcsonzo
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button vissza;
     }
 }
 

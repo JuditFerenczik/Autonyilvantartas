@@ -17,29 +17,15 @@ namespace autokolcsonzo
         {
             InitializeComponent();
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+   
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-
-        private void panel5_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void listSzin_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void button1_Click(object sender, EventArgs e)
         {
+            
             int number;
             int hossz = textRendsz.Text.Length;
              
@@ -97,16 +83,58 @@ namespace autokolcsonzo
                     forgalmi = "nem";
                 }
            
-                string msg = "Az auto \n";
-            msg += "rendszáma: " + textRendsz.Text + number + "\n";
-            msg += "gyártmánya: " + textGyart.Text+ "\n";
-            msg += "típusa: " + textTips.Text + "\n";
-            msg += "üzembehelyezésének dátuma: " + textUzem.Text + "\n";
-            msg += "színe: "  + listSzin.SelectedItem + "\n";
-            msg += "Van e rajta érvényes forgalmi: " + forgalmi+"\n";
+           
+           string msg = textRendsz.Text + ",";
+            msg +=  textGyart.Text+ ",";
+            msg += textTips.Text + ",";
+            msg +=  textUzem.Text + ",";
+            msg += listSzin.SelectedItem + ",";
+            msg +=  forgalmi;
             MessageBox.Show(msg, "Eredmény");
-                File.AppendAllText("Autok.txt", msg);
+                try
+                {
+                    using(StreamWriter sw = new StreamWriter("autokolcsonzo.txt"))
+                    {
+                        sw.WriteLine(msg);
+                    }
+
+                }
+                catch 
+                {
+                    MessageBox.Show("Valami hiba történt kiírás közben","Hiba");
+                }
+                
             }
+        }
+
+        private void vissza_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (StreamReader sr = new StreamReader("autokolcsonzo.txt"))
+                {
+                    string[] adat = sr.ReadLine().Split(",");
+                    textRendsz.Text = adat[0];
+                    textGyart.Text = adat[1];
+                    textTips.Text = adat[2];
+                    textUzem.Text = adat[3];
+                    listSzin.SelectedItem = adat[4];
+                    if (adat[5]== "igen")
+                    {
+                        radioIgen.Checked = true;
+                    }
+                    else
+                    {
+                        radioNem.Checked = false;
+                    }
+
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Hiba a visszatöltés közben", "Hiba");
+            }
+
         }
     }
 }
